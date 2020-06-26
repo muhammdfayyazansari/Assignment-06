@@ -8,7 +8,7 @@
 
    //     // ****************************************QUESTION NO 01***************************************************
     //   var fa ;
-      
+
         // var firstName =prompt("Enter your first name");
         // var lastName = prompt("Enter your last name");
         // var fullName = firstName + lastName.slice(0);
@@ -46,7 +46,7 @@
         // var character = str.lastIndexOf('l');
         // document.write("<h1> String : " + str + "<br> Last Index of 'l' : "+ character);
 
-            
+
 
 
         // // ****************************************QUESTION NO 05***************************************************
@@ -86,8 +86,8 @@
             // var deleteName = realName.slice(0,findcity);
             // var replacingname = "Islamabad";
             // var endText = realName.slice(+findcity+9);
-           
-           
+
+
             // var firstName = "Hyderabad is the name of city ";
             // var locate = firstName.indexOf("Hyderabad");
             // var copytext = firstName.slice(0,+locate);
@@ -107,8 +107,8 @@
         //     var replacing = message.replace(/and/g,"&");
 
         // document.write(replacing);
-            
-            
+
+
 
 
         // // ****************************************QUESTION NO 09***************************************************
@@ -130,6 +130,98 @@
         // var capital = userInput.toUpperCase();
         // document.write("<h1> User Input: "+ userInput +"<br> Upper Case: "+ capital);
 
+// // ****************************************QUESTION NO 11***************************************************
+        // var user = prompt("Enter a word to convert in Small letter");
+        // var lower = user.slice(0,1).toUpperCase() +user.slice(1).toLowerCase();
+
+        // document.write("<h1> User Input: "+ user +"<br> Title Case: "+ lower+"</h1>")
+
+
+        // // ****************************************QUESTION NO 12***************************************************
+        // var num=35.36;
+        // var fixed = num.toString();
+        // var final = fixed.replace(".","");
+        // document.write("Number : "+ num);
+        // document.write("<br>Result "+final)
+
+
+
+        // // ****************************************QUESTION NO 13***************************************************
+        // var userName = prompt("Enter username");
+        // var m;
+        // for(var i=0; i<userName.length; i++){
+        //  var m =userName.charCodeAt(i); 
+        // }
+        // if(m>=33 && m<=64){
+        //     alert("Please enter a valid username");
+        //     }
+        //     else{
+        //         alert("Correct user name \n "+userName)
+        //     }
+
+
+
+        // // ****************************************QUESTION NO 14***************************************************
+        //   var  A = ["cake", "apple pie", "cookie", "chips", "patties"];
+        //     var userSearch = prompt("Welcome! to Karachi Bakers\n You can search by name");
+        //     var search = userSearch.toLowerCase();
+        //     var find = A.indexOf(search);
+        //     // var name=str.charAt(find);
+        //      if(find>=0 && find<=A.length){
+        //           document.write(userSearch+" is available at index "+find+" in our bakery")
+        //       }
+        //       else{
+        //           document.write("We are sorry "+userSearch+" is not availabel in our bakery")
+        //       }
+
+        // // ****************************************QUESTION NO 15***************************************************
+        // var password = prompt("Enter your password ");
+        // var a = password.charCodeAt(0);
+        // var b = password.length;
+
+        // var m;
+        // for (var i = 0; i < password.length; i++) {
+        //     var m = password.charCodeAt(i);
+        //     var g=parseInt(m);
+        //     if ((g >= 0 && g <= 33) || g >= 58 && g <= 64) {
+        //         document.write("Entered Password: " + password + "<br>Password must be contain on alphabets and numbers <br>Please enter a valid password")
+
+        //     }
+        // }
+
+        // if (a >= 33 && a <= 64) {
+        //     document.write("<br>Entered Password: " + password + "<br>Password cannot begin with a number <br>Please enter a valid password")
+        // }
+        // if (b < 5) {
+        //     document.write("<br>Entered Password: " + password + "<br>Password must greater or equal to 6 character <br>Please enter a valid password")
+
+        // }
+
+
+
+        // // ****************************************QUESTION NO 16***************************************************
+        // var university = "University of Karachi";
+        // var change = university.split('');
+        // for(var i =0; i<change.length; i++){
+        // document.write(change[i]+"<br>")
+        // }
+
+
+        // // ****************************************QUESTION NO 17***************************************************
+            // var user = prompt("Enter a word");
+            // var length = user.length-1;
+            // var last = user.slice(length);
+            // document.write("<h1>User Input: "+user+"<br> Last character of input: "+last+"</h1>")
+
+
+
+        // // ****************************************QUESTION NO 18***************************************************
+            // var first = "The quick brown fox jumps over the lazy dog";
+            // var main = first.toLowerCase();
+            // var find = main.match(/the/g);
+            // var last = find.length;
+            // console.log(last)
+            // document.write("<h1>Text : "+first+"<br>There are "+last+" Occurences of word ' the ' <br>")
 
 
 
@@ -148,7 +240,7 @@
 
 
 
-        
+
 
         // // ****************************************QUESTION NO 26-30***************************************************
   // // *********************************   QUESTION NO 01
@@ -169,7 +261,7 @@
         // var floor = Math.floor(negative);
         // var ceil = Math.ceil(negative);
         // document.write("Number: "+negative +"<br> Round or value: "+round+"<br> Floor value: "+floor+"<br> Ceil value: " +ceil);
-    
+
 
 
         // // *********************************   QUESTION NO 03
@@ -198,10 +290,10 @@
         // else{
         //     alert(user2 + " hase won the toss who choose Tails.")
         // }
-        
 
 
-       
+
+
         // // *********************************   QUESTION NO 06-01
         // for (var i=1; i<=100; i++){
         //     var random = Math.random() * 100;
@@ -225,8 +317,8 @@
         // var absolute = Math.round(weight);
         // alert("The weight or user is : " +absolute +" Kilograms");
 
-        
-        
+
+
         // // *********************************   QUESTION NO 08
     // var newrandom= Math.random() * 10;
     // var secretnum = Math.floor(newrandom);
@@ -276,7 +368,7 @@
 
 
         // // **********************************QUESTION NO 03
-        
+
         // var latest = new Date();
         // var dayindex = latest.getDay();
         // var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -393,7 +485,7 @@
         // var amount = units * charges;
         // var late = 350;
         // var gross = amount + late;
-        
+
 
         // document.write("<h1>ELECTRIC BILL </h1> <br>Customer Name : "+name+"<br>Month: "+month+"<br>Number of units: "+units+"<br>Charges per unit: "+charges);
         // document.write("<br><br>Net Amount Payable (with in Due Date): "+amount+"<br>Late Payment Surcharges: "+late+"<br>Gross Amount Payable (after Due Date): "+gross);
